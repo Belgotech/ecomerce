@@ -18,6 +18,15 @@ const App = ()=>{
           </ul>
         </nav>
       </div>
+
+      <div className="Row">
+        <div className="Col-2">
+            <h1>Give Your Workout A New Style</h1>
+        </div>
+        <div className="Col-2">
+
+        </div>
+      </div>
     </div>
   )
 }
