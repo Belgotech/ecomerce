@@ -1,1 +1,1 @@
-## this is a play around with API
+## this is an ecomerce application
