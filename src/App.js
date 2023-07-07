@@ -1,7 +1,8 @@
 import './App.css'
 import Navbar from './Component/Navbar';
 import Hero from './Component/Hero';
-import Img1 from "./wallpaperflare.com_wallpaper.jpg";
+import Categories from './Component/Categories';
+
 
 const App = () => {
   return (
@@ -12,21 +13,8 @@ const App = () => {
           <Hero />
         </div>
       </div>
-
       {/* -----------featured categories----------- */}
-
-      <div className="Categories">
-        <div className="Small-container">
-          <div className="Row">
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-            <div className="Col-3"><img src={Img1} alt="" /></div>
-          </div>
-        </div>
-      </div>
+      <Categories />
     </div>
   )
 }
