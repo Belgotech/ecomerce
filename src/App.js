@@ -21,10 +21,13 @@ const App = ()=>{
 
       <div className="Row">
         <div className="Col-2">
-            <h1>Give Your Workout A New Style</h1>
+            <h1>Give Your Workout <br /> A New Style!</h1>
+            <p>Success is not all about greatness. It's about consistency. 
+              consistent <br /> hard work brings success. Greatness will come
+            </p>
         </div>
         <div className="Col-2">
-
+            <img src="" alt="" />
         </div>
       </div>
     </div>
