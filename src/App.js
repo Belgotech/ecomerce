@@ -35,6 +35,18 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      {/* -----------featured categories----------- */}
+
+      <div className="Categories">
+        <div className="Small-container">
+          <div className="Row">
+            <div className="Col-3"></div>
+            <div className="Col-3"></div>
+            <div className="Col-3"></div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
