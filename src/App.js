@@ -1,4 +1,5 @@
 import './App.css'
+import Img1 from "./wallpaperflare.com_wallpaper.jpg";
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
         <div className="Container">
           <div className="Navbar">
             <div className="Logo">
-              {/* <img src="" alt="" /> */}
+              {/* <img src={} alt="" /> */}
               <p>BELGO-Store</p>
             </div>
             <nav>
@@ -30,7 +31,7 @@ const App = () => {
               <a href="#btn" className="Btn">Explore Now &#8594;</a>
             </div>
             <div className="Col-2">
-              <img src="" alt="" />
+              {/* <img src={Img1} alt="" /> */}
             </div>
           </div>
         </div>
@@ -41,9 +42,12 @@ const App = () => {
       <div className="Categories">
         <div className="Small-container">
           <div className="Row">
-            <div className="Col-3"></div>
-            <div className="Col-3"></div>
-            <div className="Col-3"></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
+            <div className="Col-3"><img src={Img1} alt="" /></div>
           </div>
         </div>
       </div>
