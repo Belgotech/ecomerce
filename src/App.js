@@ -25,6 +25,7 @@ const App = ()=>{
             <p>Success is not all about greatness. It's about consistency. 
               consistent <br /> hard work brings success. Greatness will come
             </p>
+            <a href="#btn" className="Btn">Explore Now</a>
         </div>
         <div className="Col-2">
             <img src="" alt="" />
