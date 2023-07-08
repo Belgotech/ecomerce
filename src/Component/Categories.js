@@ -8,9 +8,6 @@ const Categories = () => {
                     <div className="Col-3"><img src={Img1} alt="" /></div>
                     <div className="Col-3"><img src={Img1} alt="" /></div>
                     <div className="Col-3"><img src={Img1} alt="" /></div>
-                    <div className="Col-3"><img src={Img1} alt="" /></div>
-                    <div className="Col-3"><img src={Img1} alt="" /></div>
-                    <div className="Col-3"><img src={Img1} alt="" /></div>
                 </div>
             </div>
         </div>

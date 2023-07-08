@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './Component/Navbar';
 import Hero from './Component/Hero';
 import Categories from './Component/Categories';
+import Products from './Component/Products';
 
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
       </div>
       {/* -----------featured categories----------- */}
       <Categories />
+      {/* -------------featured Product------------- */}
+      <Products />
     </div>
   )
 }
