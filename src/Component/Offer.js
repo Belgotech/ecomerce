@@ -9,7 +9,7 @@ const Offer = () => {
                         <img src={Img1} alt="" className='offer-img' />
                     </div>
                     <div className="Col-2">
-                        <p>Avaliable on BelgoStore</p>
+                        <p> Exclusively Avaliable on BelgoStore</p>
                         <h1>Play Statioin 5</h1>
                         <small>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quae nemo obcaecati! Corporis repellat rerum quia asperiores nulla ullam, totam repellendus voluptatem iusto voluptas. Hic totam vero officia reiciendis sed, velit nulla iure 
