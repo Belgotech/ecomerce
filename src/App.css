@@ -152,3 +152,11 @@ color: #fff;
   color: #555;
   font: 14px;
 }
+
+.Offer{
+  background: radial-gradient(#fff, #5555559e);
+}
+
+.Offer P{
+  color: black;
+}
