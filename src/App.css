@@ -178,3 +178,31 @@ p {
 small {
   color: #555;
 }
+
+/* -------------Testimonial-------------- */
+
+.Testimonial{
+  padding-top: 100px;
+}
+
+.Testimonial .Col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  transition: transform 0.5s;
+}
+
+.Testimonial .Col-3:hover{
+  transform: translateY(-10PX);
+}
+
+.Testimonial p{
+  color: #555;
+}
+
+.Testimonial .Col-3 img{
+  width: 50px;
+  height: 7vh;
+  margin-top: 20px;
+  border-radius: 50%;
+}
