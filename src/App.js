@@ -18,6 +18,7 @@ const App = () => {
       <Categories />
       {/* -------------featured Product------------- */}
       <Products />
+      {/* -------------------offer----------------- */}
     </div>
   )
 }
