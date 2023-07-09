@@ -3,6 +3,7 @@ import Navbar from './Component/Navbar';
 import Hero from './Component/Hero';
 import Categories from './Component/Categories';
 import Products from './Component/Products';
+import Offer from './Component/Offer';
 
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
       <Categories />
       {/* -------------featured Product------------- */}
       <Products />
-      {/* -------------------offer----------------- */}
+      {/* -------------------offer------------------ */}
+      <Offer />
     </div>
   )
 }
