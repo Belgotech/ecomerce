@@ -133,6 +133,11 @@ color: #fff;
   padding: 10px;
   min-width: 200px;
   margin-bottom: 50px;
+  transition: 0.5s;
+}
+
+.Col-4:hover{
+  transform: translateY(-7 px);
 }
 
 .Col-4 img{
