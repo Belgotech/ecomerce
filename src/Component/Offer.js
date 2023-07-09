@@ -6,7 +6,7 @@ const Offer = () => {
             <div className="Small-container">
                 <div className="Row">
                     <div className="Col-2">
-                        <img src={Img1} alt="" className='offer-img' />
+                        <img src={Img1} alt="" className='Offer-img' />
                     </div>
                     <div className="Col-2">
                         <p> Exclusively Avaliable on BelgoStore</p>
@@ -16,6 +16,7 @@ const Offer = () => {
                             eveniet eum aperiam facilis impedit quia quo.
                             eveniet eum aperiam facilis impedit quia quo.
                         </small>
+                        <br /><a href="#Offer" className='Btn'>Buy Now &#8594;</a>
                     </div>
                 </div>
             </div>

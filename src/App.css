@@ -92,7 +92,7 @@ p{
 
 .Btn:hover{
   background: #7a1609;
-  color: aqua;
+  color: #fff;
 }
 
 .Header{
@@ -162,4 +162,12 @@ color: #fff;
 
 .Offer P{
   color: #555;
+}
+
+.Col-2 .Offer-img{
+  padding: 50px;
+}
+
+small{
+  color: #555 ;
 }
