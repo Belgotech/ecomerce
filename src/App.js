@@ -5,6 +5,7 @@ import Categories from './Component/Categories';
 import Products from './Component/Products';
 import Offer from './Component/Offer';
 import Testimonial from './Component/testimonial';
+import Brands from './Component/Brand';
 
 
 const App = () => {
@@ -24,6 +25,8 @@ const App = () => {
       <Offer />
       {/* ---------------testimonial---------------- */}
       <Testimonial />
+      {/* --------------Brands---------------------- */}
+      <Brands />
     </div>
   )
 }

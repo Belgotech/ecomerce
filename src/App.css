@@ -206,3 +206,28 @@ small {
   margin-top: 20px;
   border-radius: 50%;
 }
+
+.Testimonial .Col-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+
+/* -----------------Brands----------------- */
+
+.Brands{
+  margin: 100px auto;
+}
+
+.Col-5{
+  width: 160px;
+}
+
+.Col-5 img{
+  width: 100%; 
+  filter: grayscale(100%);
+}
+
+.Col-5 img:hover{
+  filter: grayscale(0);
+}
