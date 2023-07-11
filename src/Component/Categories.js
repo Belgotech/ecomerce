@@ -1,6 +1,6 @@
-import Img1 from "../eye-glass1.jpeg";
+import Img1 from "../game.jpeg";
 import Img2 from "../shoe1.jpeg";
-import Img3 from "../t-shirt2.jpeg";
+import Img3 from "../t-shirt1.webp";
 
 const Categories = () => {
     return (

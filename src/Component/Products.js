@@ -1,5 +1,14 @@
 import { useState, useEffect } from 'react'
-import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+import Img1 from '../t-shirt2 2.jpeg'
+import Img2 from '../ipone14.webp'
+import Img3 from '../eye-glass1.jpeg'
+import Img4 from '../iphone14-2.webp'
+import Img5 from '../shoe3.webp'
+import Img6 from '../t-shirt2 2.jpeg'
+import Img7 from '../shoe2.jpeg'
+import Img8 from '../eye-glass2.jpeg'
+import Img9 from '../ipone14.webp'
+import Img10 from '../ipone14.webp'
 
 const Products = () => {
 
@@ -28,7 +37,7 @@ const Products = () => {
                 return (
                     <div className='Row'>
                         <div className="Col-4" key={index}>
-                            <img src={product.image} alt="this is the products image" />
+                            {/* <img src={Img1} alt="this is the products image" /> */}
                             <h4>{product.title}</h4>
                             <p>{product.price}</p>
                         </div>
@@ -43,37 +52,37 @@ const Products = () => {
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img2} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img3} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img4} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img5} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img6} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img7} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img8} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
@@ -85,7 +94,7 @@ const Products = () => {
                 {JSON.stringify(Products.map((product, index) => {
                     return (
                         <div className='Col-4' key={index}>
-                            <img src={product.image} alt="this is the image of a latest product" />
+                            {/* <img src={Img1} alt="this is the image of a latest product" /> */}
                             <h4>{product.title}</h4>
                             <p>{product.price}</p>
                         </div>
@@ -94,7 +103,17 @@ const Products = () => {
             </div>
             <div className="Row">
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img9} alt="" />
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p>$50.00</p>
+                </div>
+                <div className="Col-4">
+                    <img src={Img10} alt="" />
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p>$50.00</p>
+                </div>
+                <div className="Col-4">
+                    <img src={Img3} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
@@ -109,7 +128,7 @@ const Products = () => {
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img8} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
@@ -119,17 +138,7 @@ const Products = () => {
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img1} alt="" />
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>$50.00</p>
-                </div>
-                <div className="Col-4">
-                    <img src={Img1} alt="" />
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>$50.00</p>
-                </div>
-                <div className="Col-4">
-                    <img src={Img1} alt="" />
+                    <img src={Img2} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
