@@ -1,7 +1,19 @@
-// import Img1 from '../237677.jpg'
+import { useState, useEffect } from 'react'
 import Img1 from '../wallpaperflare.com_wallpaper.jpg'
 
 const Products = () => {
+
+    const [Products, setProducts] = useState([])
+
+    const getProducts = async ()=>{
+        const response = await fetch('https://dummyjson.com/product')
+        const json = await response.json()
+    }
+
+    useEffect(()=>{
+
+    })
+
     return (
         <div className="Small-container">
             <h2>Featured Products</h2>
