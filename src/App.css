@@ -100,9 +100,14 @@ p {
 
 .Header {
   /* background: radial-gradient(#fff,#e8a8a0); */
-  background: url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+  background: url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg),rgba(0,0,0, 0.4);;
+  /* background-size: cover; */
+  /* background-position: center; */
   font-family: sans-serif;
-  color: #fff;
+  /* color: #fff; */
+  color: whitesmoke;
+  backdrop-filter: blur(8px);
+  /* -webkit-filter: blur(8px); */
 }
 
 .Header .Row {
@@ -162,13 +167,16 @@ p {
 
 /* ----------------Offer-------------- */
 .Offer {
-  background: radial-gradient(#fff, #5555559e);
+  /* background: radial-gradient(#fff, blue); */
+  background-image: url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg);
   margin-top: 80px;
   padding: 50px 0;
+  color: #fff;
 }
 
 .Offer P {
-  color: #555;
+  /* color: #555; */
+  color: #dcd4d4;
 }
 
 .Col-2 .Offer-img {
@@ -176,7 +184,8 @@ p {
 }
 
 small {
-  color: #555;
+  /* color: #555; */
+  color: #d7d0d0;
 }
 
 /* -------------Testimonial-------------- */
