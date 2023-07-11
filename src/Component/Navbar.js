@@ -1,3 +1,5 @@
+import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+
 const Navbar = () => {
     return (
         <div className="Navbar">
@@ -14,8 +16,8 @@ const Navbar = () => {
                     <li><a href="#Account">Account</a></li>
                 </ul>
             </nav>
-            <img src='' alt="this is a cart icon" />
-            <img src='' alt="this is a menu icon" />
+            <img src={Img1} alt="this is a cart icon" width={'30px'} height={'30px'} />
+            <img src={Img1} alt="this is a menu icon" width={'30px'} height={'30px'} className='Menu-icon' />
         </div>
     )
 }

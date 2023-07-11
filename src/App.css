@@ -292,3 +292,14 @@ ul{
   height: 1px;
   margin: 20px 0;
 }
+
+.Copyright{
+  text-align: center;
+}
+
+.Menu-icon{
+  width: 28px;
+  margin-left: 20px;
+}
+
+/* ---------------media query for menu---------------- */
