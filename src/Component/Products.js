@@ -22,12 +22,20 @@ const Products = () => {
 
     return (
         <div className="Small-container">
+            <h2>Featured Products</h2>
+            {error !== "" && error}
             {JSON.stringify(Products.map((product, index)=>{
                 return(
-                    <div></div>
+                    <div className='Row'>
+                        <div className="Col-4">
+                            <img src={product.image} alt="" />
+                            <h4>{product.title}</h4>
+                        </div>
+
+                    </div>
                 )
             }))}
-            <h2>Featured Products</h2>
+            
             <div className="Row">
                 <div className="Col-4">
                     <img src={Img1} alt="" />
