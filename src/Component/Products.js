@@ -27,11 +27,11 @@ const Products = () => {
             {JSON.stringify(Products.map((product, index)=>{
                 return(
                     <div className='Row'>
-                        <div className="Col-4">
-                            <img src={product.image} alt="" />
+                        <div className="Col-4" key={index}>
+                            <img src={product.image} alt="this is the products image" />
                             <h4>{product.title}</h4>
+                            <p>{product.price}</p>
                         </div>
-
                     </div>
                 )
             }))}
