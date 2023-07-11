@@ -1,4 +1,4 @@
-import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+import Img1 from '../—Pngtree—gamebox 5 desigh with controller_5415243.png'
 
 const Offer = () => {
     return (

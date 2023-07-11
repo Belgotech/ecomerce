@@ -1,4 +1,5 @@
-import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+import Img1 from '../pngwing.com (1).png'
+import Img2 from '../pngwing.com.png'
 
 const Footer =()=>{
     return(
@@ -10,7 +11,7 @@ const Footer =()=>{
                         <p>Download App for Andriod and ios mobile phone.</p>
                         <div className="App-logo">
                             <img src={Img1} alt="" />
-                            <img src={Img1} alt="" />
+                            <img src={Img2} alt="" />
                         </div>
                     </div>
                     <div className="Footer-col-2">
