@@ -1,4 +1,4 @@
-// import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+import Img1 from '../wallpaperflare.com_wallpaper.jpg'
 
 const Footer =()=>{
     return(
@@ -8,9 +8,12 @@ const Footer =()=>{
                     <div className="Footer-col-1">
                         <h3>Download Our App</h3>
                         <p>Download App for Andriod and ios mobile phone.</p>
+                        <div className="App-logo">
+                            <img src={Img1} alt="" />
+                            <img src={Img1} alt="" />
+                        </div>
                     </div>
                     <div className="Footer-col-2">
-                        {/* <img src={Img1} alt="" /> */}
                         <div className="Logo">
                             BelgoStore
                         </div>
@@ -35,6 +38,8 @@ const Footer =()=>{
                         </ul>
                     </div>
                 </div>
+                <hr />
+                <p className="Copyright">Copyright 2023 - Belgostore</p>
             </div>
         </div>
     )
