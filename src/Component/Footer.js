@@ -17,7 +17,7 @@ const Footer =()=>{
                         <div className="Logo">
                             BelgoStore
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ex.</p>
+                        <p>Our purpose is substainably make the pleasure and benefits of game to many.</p>
                     </div>
                     <div className="Footer-col-3">
                         <h3>Useful Links</h3>

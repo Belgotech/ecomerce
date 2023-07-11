@@ -285,3 +285,10 @@ ul{
 .App-logo img{
   width: 140px;
 }
+
+.Footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}

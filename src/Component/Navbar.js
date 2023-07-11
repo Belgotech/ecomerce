@@ -14,6 +14,8 @@ const Navbar = () => {
                     <li><a href="#Account">Account</a></li>
                 </ul>
             </nav>
+            <img src='' alt="this is a cart icon" />
+            <img src='' alt="this is a menu icon" />
         </div>
     )
 }
