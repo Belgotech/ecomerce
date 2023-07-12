@@ -180,7 +180,12 @@ p {
 }
 
 .Col-2 .Offer-img {
-  padding: 50px;
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.Col-2 .Offer-img:hover{
+  transform: translateY(-8px);
 }
 
 small {
