@@ -108,7 +108,7 @@ const Products = () => {
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
-                    <img src={Img10} alt="" />
+                    <img src={Img4} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
                     <p>$50.00</p>
                 </div>
