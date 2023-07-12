@@ -170,7 +170,7 @@ p {
 
 .title::after{
   content: '';
-  background: red;
+  background: #ff523b;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -180,9 +180,18 @@ p {
   transform: translateX(-50%);
 }
 
+h4{
+  color: #555;
+  font-weight: normal;
+}
+
 .Col-4 p {
   color: #555;
   font: 14px;
+}
+
+.Rating {
+  color: #ff523b;
 }
 
 /* ----------------Offer-------------- */
