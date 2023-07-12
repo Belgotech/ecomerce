@@ -256,6 +256,11 @@ small {
   font-size: 16px;
 }
 
+.Col-3 .quote{
+  color: #ff523b;
+  font-size: 30px;
+}
+
 /* -----------------Brands----------------- */
 
 .Brands{
