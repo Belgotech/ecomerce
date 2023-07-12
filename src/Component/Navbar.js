@@ -1,4 +1,4 @@
-import Img1 from '../img/wallpaperflare.com_wallpaper.jpg'
+import {AiOutlineMenu, AiOutlineShoppingCart} from 'react-icons/ai'
 
 const Navbar = () => {
 
@@ -21,8 +21,10 @@ const Navbar = () => {
                     <li><a href="#Account">Account</a></li>
                 </ul>
             </nav>
-            <img src={Img1} alt="this is a cart icon" width={'30px'} height={'30px'} />
-            <img src={Img1} alt="this is a menu icon" width={'30px'} height={'30px'} className='Menu-icon' onClick={menuToggle} />
+            {/* <img src={Img1} alt="this is a cart icon" width={'30px'} height={'30px'} /> */}
+            <AiOutlineShoppingCart className='Menu-icon' onClick={menuToggle} />
+            <AiOutlineMenu />
+            {/* <img src={Img1} alt="this is a menu icon" width={'30px'} height={'30px'} className='Menu-icon' onClick={menuToggle} /> */}
         </div>
     )
 }

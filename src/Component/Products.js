@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import {BsStarFill, BsStarHalf, BsStar} from 'react-icons/bs'
 import Img1 from '../img/t-shirt2 2.jpeg'
 import Img2 from '../img/ipone14.webp'
 import Img3 from '../img/eye-glass1.jpeg'
@@ -49,41 +50,105 @@ const Products = () => {
                 <div className="Col-4">
                     <img src={Img1} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img2} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img3} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img4} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img5} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img6} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img7} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img8} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
             </div>
@@ -105,41 +170,105 @@ const Products = () => {
                 <div className="Col-4">
                     <img src={Img9} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img4} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img3} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img1} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>$50.00</p>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
+                    <p>$40.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img1} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>$50.00</p>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarHalf />
+                         <BsStar />
+                    </div>
+                    <p>$80.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img8} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
-                    <p>$50.00</p>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
+                    <p>$60.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img1} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
                 <div className="Col-4">
                     <img src={Img2} alt="" />
                     <h4>Lorem ipsum dolor sit amet.</h4>
+                    <div className="Rating">
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStarFill />
+                         <BsStar />
+                         <BsStar />
+                    </div>
                     <p>$50.00</p>
                 </div>
             </div>
