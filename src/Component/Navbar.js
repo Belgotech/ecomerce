@@ -1,4 +1,4 @@
-import Img1 from '../wallpaperflare.com_wallpaper.jpg'
+import Img1 from '../img/wallpaperflare.com_wallpaper.jpg'
 
 const Navbar = () => {
 

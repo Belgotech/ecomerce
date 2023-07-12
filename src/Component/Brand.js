@@ -1,8 +1,8 @@
-import Img1 from '../Screenshot_2022_02_06_at_12_22_47_pm.jpeg'
-import Img2 from '../mascot-logo-design_fb-img_1200x800.jpeg'
-import Img3 from '../BMW-M-Logo.png'
-import Img4 from '../99be7d153299cf0e09f2ddc212ebd563.webp'
-import Img5 from '../49a7247bc0f530e1d427f6dab3c32cf0.jpeg'
+import Img1 from '../img/Screenshot_2022_02_06_at_12_22_47_pm.jpeg'
+import Img2 from '../img/mascot-logo-design_fb-img_1200x800.jpeg'
+import Img3 from '../img/BMW-M-Logo.png'
+import Img4 from '../img/99be7d153299cf0e09f2ddc212ebd563.webp'
+import Img5 from '../img/49a7247bc0f530e1d427f6dab3c32cf0.jpeg'
 
 
 const Brands = () => {

@@ -1,5 +1,5 @@
-import Img1 from '../pngwing.com (1).png'
-import Img2 from '../pngwing.com.png'
+import Img1 from '../img/pngwing.com (1).png'
+import Img2 from '../img/pngwing.com.png'
 
 const Footer =()=>{
     return(

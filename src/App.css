@@ -100,7 +100,7 @@ p {
 
 .Header {
   /* background: radial-gradient(#fff,#e8a8a0); */
-  background: url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg),rgba(0,0,0, 0.4);;
+  background: url(./img/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
   /* background-size: cover; */
   /* background-position: center; */
   font-family: sans-serif;
@@ -168,7 +168,7 @@ p {
 /* ----------------Offer-------------- */
 .Offer {
   /* background: radial-gradient(#fff, blue); */
-  background-image: url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+  background-image: url(./img/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
   margin-top: 80px;
   padding: 50px 0;
   color: #fff;
