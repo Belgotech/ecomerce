@@ -31,7 +31,7 @@ const Products = () => {
 
     return (
         <div className="Small-container">
-            <h2>Featured Products</h2>
+            <h2 className='title'>Featured Products</h2>
             {error !== "" && error}
             {JSON.stringify(Products.map((product, index) => {
                 return (
@@ -88,7 +88,7 @@ const Products = () => {
                 </div>
             </div>
 
-            <h2>Latest Products </h2>
+            <h2 className='title'>Latest Products </h2>
             <div className="Row">
                 {error !== "" && error}
                 {JSON.stringify(Products.map((product, index) => {
