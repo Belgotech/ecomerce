@@ -22,8 +22,8 @@ const Navbar = () => {
                 </ul>
             </nav>
             {/* <img src={Img1} alt="this is a cart icon" width={'30px'} height={'30px'} /> */}
-            <AiOutlineShoppingCart className='Menu-icon' onClick={menuToggle} />
-            <AiOutlineMenu />
+            <AiOutlineShoppingCart className='cart'  />
+            <AiOutlineMenu className='Menu-icon' onClick={menuToggle}/>
             {/* <img src={Img1} alt="this is a menu icon" width={'30px'} height={'30px'} className='Menu-icon' onClick={menuToggle} /> */}
         </div>
     )

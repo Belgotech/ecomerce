@@ -346,8 +346,13 @@ ul{
 }
 
 .Menu-icon{
-  width: 28px;
+  font-size: 28px;
   margin-left: 20px;
+  display: none;
+}
+
+.cart{
+  font-size: 28px;
 }
 
 /* ---------------media query for menu---------------- */
