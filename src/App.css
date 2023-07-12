@@ -325,6 +325,8 @@ ul{
     left: 0;
     background: #333;
     width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
   }
 
   nav ul li{
@@ -334,8 +336,18 @@ ul{
     margin-bottom: 10px;
   }
 
+  nav ul li a{
+    color: #fff;
+  }
+
   .Menu-icon{
     display: block;
     cursor: pointer;
   }
+}
+
+/* --------media query for less than 600px------------ */
+
+@media only screen and (max-width: 600px) {
+  
 }
