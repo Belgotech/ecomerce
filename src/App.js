@@ -12,6 +12,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="Header">
+        <div className="Bg-image"></div>
         <div className="Container">
           <Navbar />
           <Hero />
