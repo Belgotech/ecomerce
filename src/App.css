@@ -383,6 +383,11 @@ ul{
     display: block;
     cursor: pointer;
   }
+
+  .Header .Row {
+    margin-top: 100px;
+    padding: 150px;
+  }
 }
 
 /* --------media query for less than 600px------------ */
